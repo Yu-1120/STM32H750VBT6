@@ -1,4 +1,4 @@
-# Install script for directory: E:/GitHub/STM32H750VBT6/ClionTemplate/01-GPIO
+# Install script for directory: E:/STM32H750VBT6/ClionTemplate/01-GPIO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/GitHub/STM32H750VBT6/ClionTemplate/01-GPIO/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/STM32H750VBT6/ClionTemplate/01-GPIO/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -118,7 +118,7 @@ int main(void)
 	#endif
 	MPU_Config();
 	CPU_CACHE_Enable();
-	
+    uint32_t rng;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -141,7 +141,7 @@ int main(void)
   MX_GPIO_Init();
   MX_RNG_Init();
   /* USER CODE BEGIN 2 */
-	uint32_t rng;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

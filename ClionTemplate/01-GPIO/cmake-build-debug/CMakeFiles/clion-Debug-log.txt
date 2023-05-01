@@ -1,45 +1,19 @@
-"D:\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S E:\GitHub\STM32H750VBT6\ClionTemplate\01-GPIO -B E:\GitHub\STM32H750VBT6\ClionTemplate\01-GPIO\cmake-build-debug
--- The C compiler identification is unknown
--- The CXX compiler identification is unknown
--- The ASM compiler identification is unknown
--- Found assembler: arm-none-eabi-gcc
-CMake Error at CMakeLists.txt:17 (project):
-  The CMAKE_C_COMPILER:
-
-    arm-none-eabi-gcc
-
-  is not a full path and was not found in the PATH.
-
-  Tell CMake where to find the compiler by setting either the environment
-  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
-  the compiler, or to the compiler name if it is in the PATH.
-
-
-CMake Error at CMakeLists.txt:17 (project):
-  The CMAKE_CXX_COMPILER:
-
-    arm-none-eabi-g++
-
-  is not a full path and was not found in the PATH.
-
-  Tell CMake where to find the compiler by setting either the environment
-  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
-  to the compiler, or to the compiler name if it is in the PATH.
-
-
-CMake Error at CMakeLists.txt:17 (project):
-  The CMAKE_ASM_COMPILER:
-
-    arm-none-eabi-gcc
-
-  is not a full path and was not found in the PATH.
-
-  Tell CMake where to find the compiler by setting either the environment
-  variable "ASM" or the CMake cache entry CMAKE_ASM_COMPILER to the full path
-  to the compiler, or to the compiler name if it is in the PATH.
-
-
--- Warning: Did not find file Compiler/-ASM
--- Configuring incomplete, errors occurred!
-See also "E:/GitHub/STM32H750VBT6/ClionTemplate/01-GPIO/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "E:/GitHub/STM32H750VBT6/ClionTemplate/01-GPIO/cmake-build-debug/CMakeFiles/CMakeError.log".
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\STM32H750VBT6\ClionTemplate\01-GPIO -B E:\STM32H750VBT6\ClionTemplate\01-GPIO\cmake-build-debug
+-- The C compiler identification is GNU 5.4.1
+-- The CXX compiler identification is GNU 5.4.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/VsCode_stm32/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/STM32H750VBT6/ClionTemplate/01-GPIO/cmake-build-debug

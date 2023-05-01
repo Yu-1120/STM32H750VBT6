@@ -1,15 +1,7 @@
 # STM32H750VBT6
 基于WeActStudio的STM32H750VBT6
 
-# STM32H7VBT6
-
 反客-STM32H7VBT6-自己的一些代码
-
-
-
-
-
-
 
 ----
 
